@@ -1,0 +1,47 @@
+@media screen and (max-width: 500px) {
+	.form-wrapper .d-flex,
+	.meeting-wrapper .d-flex {
+		display: block;
+	}
+	.signup-tab,
+	.login-tab {
+		width: 100%;
+	}
+	.relative {
+		display: inline-block;
+	}
+}
+@media screen and (max-width: 576px) {
+	.signup-wrapper .d-flex {
+		display: block;
+	}
+	.col-6 {
+		width: 100%;
+		padding: 0; 
+	}
+}
+@media screen and (max-width: 600px) {
+	.mywallets,
+	.current-balance {
+		width: auto;
+	}
+	.wallets-div {
+		display: block;
+	}
+	.current-balance {
+	    border-top-right-radius: 0;
+	    border-bottom-left-radius: 6px;
+	}
+	.mywallets {
+    	border-bottom-left-radius: 0;
+    	border-top-right-radius: 6px;
+    }
+}
+@media screen and (max-width: 768px) {
+	.wallets-wrapper {
+		width: 95%;
+	}
+	.wallets-wrapper .ml-40 {
+		margin-left: 0;
+	}
+}

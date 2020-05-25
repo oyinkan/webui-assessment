@@ -1,0 +1,378 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html {
+	font-size: 62.5%;
+}
+body {
+	/*font-family: 'Roboto', sans-serif;*/
+	font-family: 'Open Sans', sans-serif;
+}
+input {
+	width: 100%;
+	background-clip: padding-box;
+	font-size: 2rem;
+    line-height: 1.5;
+}
+h1 {
+	font-size: 3.5rem;
+	font-weight: bold;
+}
+h2 {
+	font-size: 3rem;
+}
+h3 {
+	font-size: 2.5rem;
+}
+/* 5 */
+#ui-five {
+	background: #3b4044;
+}
+.container {
+	width: 86%;
+	margin: 5rem auto;
+}
+#ui-five .form-wrapper {
+    border-radius: 0 0 8px 8px;
+	background: #fff;
+	padding: 5rem 3.5rem;
+}
+.form-wrapper h1 {
+	color: #aeadab;
+	text-align: center;
+	margin-bottom: 6.5rem;
+}
+#ui-five .form-control {
+    height: 8rem;
+    padding: 2.5rem;
+    padding-bottom: 3rem;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #ebebeb;
+    background-color: #fff;
+    border: 3px solid #ebebeb;
+    border-radius: 8px;
+    margin-bottom: 4rem;
+}
+#ui-five ::-webkit-input-placeholder { /* Edge */
+  color: #ebebeb;
+}
+#ui-five :-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #ebebeb;
+}
+#ui-five ::placeholder {
+  color: #ebebeb;
+}
+#ui-five .form-control:focus {
+	border-color: #63c3e4;
+}
+#ui-five .form-control:focus::-webkit-input-placeholder {
+    color: #b8b8b8;
+}
+#ui-five .form-control:focus::-moz-placeholder {
+    color: #b8b8b8;
+}
+#ui-five .form-control:focus::placeholder {
+  color: #b8b8b8;
+}
+.btn {
+	display: inline-block;
+	width: 100%;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-appearance: button;
+    cursor: pointer;
+    padding: 2.5rem;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 2rem;
+
+    background: #dd514c;
+    border: 1px solid #dd514c;
+}
+.d-flex {
+	display: flex;
+}
+.deepgreen,
+.green,
+.deepred,
+.red,
+.deepyellow,
+.yellow,
+.deepblue,
+.blue {
+	padding: 5px 15px;
+	width: 100%;
+}
+.deepgreen {
+	background: #16a185;
+}
+.green {
+	background: #1abc9c;
+}
+.deepred {
+	background: #c0392b;
+}
+.red {
+	background: #dd514c;
+}
+.deepyellow {
+	background: #faa733;
+}
+.yellow {
+	background: #ffcc01;
+}
+.deepblue {
+	background: #149be0;
+}
+.blue {
+	background: #33ccff;
+}
+
+/* 6 */
+#ui-six {
+	background: #c0bcb9;
+}
+.container-fluid {
+	width: 92%;
+	margin: 5rem auto;
+}
+#ui-six .form-wrapper {
+	background: #25333c;
+	padding: 6rem 5rem;
+	border-radius: 8px;
+	box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.7);
+}
+.signup-tab,
+.login-tab {
+	width: 50%;
+	padding: 3rem;
+	font-size: 3rem;
+	text-align: center;
+}
+.signup-tab {
+	background: #1bb188;
+	color: #fff;
+}
+.login-tab {
+	background: #445359;
+	color: #a0b3b0;
+}
+#ui-six .form-wrapper h1 {
+	color: #fff;
+    margin-top: 6rem;
+    margin-bottom: 4.5rem;
+    font-weight: 500;
+}
+.col-6 {
+	width: 50%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.col-6:nth-child(1) {
+	padding-left: 0;
+}
+.col-6:nth-child(2) {
+	padding-right: 0;
+}
+#ui-six .form-control {
+    padding: 1rem;
+    background: transparent;
+    padding: 1rem 1.5rem;
+    font-weight: normal;
+    color: #a0b3b0;
+    border: 1.5px solid #a0b3b0;
+    margin-bottom: 5rem;
+}
+#ui-six ::-webkit-input-placeholder { /* Edge */
+  color: #a0b3b0;
+}
+#ui-six :-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #a0b3b0;
+}
+#ui-six ::placeholder {
+  color: #a0b3b0;
+}
+#ui-six .btn {
+	background: #1bb188;
+	border: 1px solid #1bb188;
+	text-transform: uppercase;
+	padding: 2rem;
+	padding-top: 2.5rem;
+    border-radius: 0;
+}
+
+/* 3 */
+#ui-three {
+	background: #fafafa;
+}
+.events-wrapper {
+	width: 75%;
+	margin: auto;
+	padding: 3rem;
+	padding-top: 6rem;
+	background: #f4f6f6;
+}
+.events-wrapper h2 {
+	color: #bec1ca;
+}
+.meeting-wrapper {
+	margin-top: 3rem;
+    border-left: 15px solid #86d9c9;
+    background: #fff;
+    padding: 3rem 2rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px rgba(155, 155, 155, 0.2);
+}
+.justify-within {
+	justify-content: space-between;
+}
+.meeting-wrapper h6,
+.meeting-wrapper p {
+	font-size: 2.2rem;
+}
+.meeting-wrapper h6 {
+	font-weight: bold;
+	color: #000;
+}
+.meeting-wrapper p {
+	color: #a0aab8;
+	margin-top: 1.5rem;
+}
+.meeting-shadow {
+	padding: 20px 30px;
+    border-radius: 50px;
+    box-shadow: 0 15px 20px rgba(235, 235, 235, 0.6);
+    margin-top: 25px;
+}
+.meeting-time {
+	background: #67dcec;
+    color: #fff;
+    box-shadow: 0px 8px 10px rgba(235, 235, 235, 0.6);
+    padding: 1.5rem 3rem;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    margin-top: -54px;
+}
+.meeting-time.all-day {
+	background: #fdca40;
+}
+.relative {
+	position: relative;
+}
+
+/* 4 */
+#ui-four {
+	background: #ffcc66;
+}
+.wallets-wrapper {
+	width: 75%;
+	margin: 2rem auto;
+}
+.mywallets {
+	width: 40%;
+	background: #f2f2f2;
+	padding: 5rem;
+	padding-bottom: 6rem;
+	border-bottom-left-radius: 6px;
+	border-top-left-radius: 6px;
+}
+.wallets-div {
+	display: flex;
+}
+.current-balance {
+	width: 60%;
+	background: #fff;
+	padding: 5rem;
+	border-bottom-right-radius: 6px;
+	border-top-right-radius: 6px;
+}
+.ml-40 {
+	margin-left: 40px;
+}
+.card-wrapper {
+	padding: 1.5rem;
+	border: 2px solid #ccc;
+	background: #fff;
+	border-radius: 4px;
+	margin-bottom: 5rem;
+}
+.mywallets h3,
+.current-balance h3 {
+	color: #727786;
+	font-weight: 500;
+	margin-bottom: 5rem;
+}
+.mywallets h3 i {
+	color: #c6cde2;
+}
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+}
+.card-wrapper img {
+	height: 50px;
+}
+.card-wrapper p {
+	font-size: 14px;
+    margin-top: 10px;
+}
+.card-wrapper p:nth-child(3) {
+	margin-top: 0;
+}
+.card-wrapper:focus,
+.card-wrapper:hover {
+	border: 3px solid #8393ca;
+}
+.current-balance h2 {
+	color: #444750;
+	margin-top: -5px;
+}
+.current-balance hr {
+	border: 1px solid #e8e8e8;
+}
+.minus-wrapper {
+	margin-right: 10px;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #e1e1e1;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 4px;
+    color: #7e7e7e;
+}
+.mt-50 {
+	margin-top: 5rem;
+}
+.payment-wrapper h6 {
+	font-size: 18px;
+    margin-top: -12px;
+    color: #020202;
+    padding-bottom: 2px;
+}
+.payment-wrapper p {
+	font-size: 14px;
+    color: #a3a3a3;
+}
+.payment-deducted,
+.payment-added {
+	font-size: 16px;
+    font-weight: 600;
+} 
+.payment-deducted {
+	color: #8594cb;
+}
+.payment-added {
+	color: #70cf40;
+}
